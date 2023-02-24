@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'assignment_example/input_contact_form_page.dart';
-import 'input_contact_form_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,11 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo FORM',
       theme: ThemeData(
-
         primarySwatch: Colors.blue,
       ),
       home: const InputContactFormPage(),
     );
   }
 }
-
